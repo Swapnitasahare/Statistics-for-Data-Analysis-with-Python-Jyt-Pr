@@ -24,12 +24,15 @@ To get access to functions in the seaborn library or any library, you must first
 
 Here is a quick summary for creating graphs and plots:
 
-Barplots: A barplot shows the relationship between a numeric and a categorical variable by plotting the categorical variables as bars in correspondence to the numerical variable. In the seaborn library, barplots are created by using the barplot() function. The following code ax = seaborn.barplot(x="division", y="eval", data=division_eval) will return a barplot that shows the average evaluation scores for the lower-division and upper-division.
+Barplots: 
+A barplot shows the relationship between a numeric and a categorical variable by plotting the categorical variables as bars in correspondence to the numerical variable. In the seaborn library, barplots are created by using the barplot() function. The following code ax = seaborn.barplot(x="division", y="eval", data=division_eval) will return a barplot that shows the average evaluation scores for the lower-division and upper-division.
 
-Scatterplots: This is a two-dimensional plot that displays the relationship between two continuous data. Scatter plots are created by using the scatterplot() function in the seaborn library.
+Scatterplots: 
+This is a two-dimensional plot that displays the relationship between two continuous data. Scatter plots are created by using the scatterplot() function in the seaborn library.
 The following code: ax = seaborn.scatterplot(x='age', y='eval', hue='gender', data=ratings_df) will return a plot that shows the relationship between age and evaluation scores:
 
-Boxplots: A boxplot is a way of displaying the distribution of the data. It returns the minimum, first quartile, median, third quartile, and maximum values of the data. We use the boxplot() function in the seaborn library. This code ax = seaborn.boxplot(y='beauty', data=ratings_df) will return a boxplot with the data distribution for beauty. We can make the boxplots horizontal by specifying x='beauty' in the argument.
+Boxplots: 
+A boxplot is a way of displaying the distribution of the data. It returns the minimum, first quartile, median, third quartile, and maximum values of the data. We use the boxplot() function in the seaborn library. This code ax = seaborn.boxplot(y='beauty', data=ratings_df) will return a boxplot with the data distribution for beauty. We can make the boxplots horizontal by specifying x='beauty' in the argument.
 
 Other useful functions include catplot() to represent the relationship between a numerical value and one or more categorical variables, distplot(), and histplot for plotting histograms.
 
